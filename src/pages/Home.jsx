@@ -2,7 +2,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react';
 import { useSnapshot } from 'valtio';
 import CustomButton from '../components/CustomButton';
-import { iOSFix } from '../config/helpers';
 import {
 	headContainerAnimation,
 	headContentAnimation,
